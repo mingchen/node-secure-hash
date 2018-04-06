@@ -1,0 +1,66 @@
+{
+    "env": {
+        "node": true,
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "mocha": true
+    },
+    "plugins": [
+        "security",
+        "node",
+        "mocha"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:security/recommended",
+        "plugin:node/recommended"
+    ],
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2018
+    },
+    "rules": {
+        "indent": [
+            "warn",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "warn",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-unused-vars": [
+            "off",
+            {
+                "varsIgnorePattern": "util",
+                "argsIgnorePattern": "next"
+            }
+        ],
+        "security/detect-object-injection": "off",
+        "node/exports-style": ["warn", "module.exports"],
+        "node/no-missing-require": [
+            "error",
+            {
+                "allowModules": [],
+                "resolvePaths": ["."],
+                "tryExtensions": [".js", ".json", ".node"]
+            }
+        ],
+        "node/no-unpublished-require": ["error", {
+            "allowModules": ["should", "chai"]
+        }],
+        "node/no-extraneous-require": ["error", {
+            "allowModules": ["bluebird", "on-finished"]
+        }],
+        "mocha/no-exclusive-tests": "error"
+    }
+}

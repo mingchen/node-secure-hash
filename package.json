@@ -1,0 +1,41 @@
+{
+  "name": "secure-hash",
+  "version": "1.0.0",
+  "description": "Secure hash algorithms like md5, sha1, sha2",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "pretest": "./node_modules/.bin/eslint .",
+    "test": "./node_modules/.bin/mocha ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mingchen/node-secure-hash.git"
+  },
+  "keywords": [
+    "nodejs",
+    "crypto",
+    "hash",
+    "md5",
+    "sha1",
+    "sha2"
+  ],
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "eslint": "^4.19.1",
+    "eslint-plugin-mocha": "^5.0.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-security": "^1.4.0",
+    "mocha": "^5.0.5"
+  },
+  "author": "Ming Chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mingchen/node-secure-hash/issues"
+  },
+  "homepage": "https://github.com/mingchen/node-secure-hash#readme"
+}
