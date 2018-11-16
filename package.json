@@ -1,6 +1,6 @@
 {
   "name": "secure-hash",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Secure hash algorithms like md5, sha1, sha2",
   "main": "index.js",
   "engines": {
