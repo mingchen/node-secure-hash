@@ -1,7 +1,7 @@
 node-secure-hash
 ================
 
-[![Build Status](https://travis-ci.org/mingchen/node-secure-hash.svg?branch=master)](https://travis-ci.org/mingchen/node-secure-hash)
+[![Build Status](https://travis-ci.org/mingchen/node-secure-hash.svg?branch=master)](https://travis-ci.org/mingchen/node-secure-hash) [![Greenkeeper badge](https://badges.greenkeeper.io/mingchen/node-secure-hash.svg)](https://greenkeeper.io/)
 
 
 nodejs crypto secure hash collection, just a wrapper of `crypto` to make more easy to use.
