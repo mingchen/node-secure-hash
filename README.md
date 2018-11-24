@@ -1,6 +1,9 @@
 node-secure-hash
 ================
 
+[![Build Status](https://travis-ci.org/mingchen/node-secure-hash.svg?branch=master)](https://travis-ci.org/mingchen/node-secure-hash)
+
+
 nodejs crypto secure hash collection, just a wrapper of `crypto` to make more easy to use.
 
 
