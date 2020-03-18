@@ -30,7 +30,7 @@
     "eslint-plugin-mocha": "^6.2.2",
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-security": "^1.4.0",
-    "mocha": "^6.2.2"
+    "mocha": "^7.0.1"
   },
   "author": "Ming Chen",
   "license": "MIT",
